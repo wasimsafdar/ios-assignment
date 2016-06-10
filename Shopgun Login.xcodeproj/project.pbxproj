@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04498BA61D0B5E0A008E46CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04498BA51D0B5E0A008E46CB /* Main.storyboard */; };
+		04ABF6E71D0B050900AEFC1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF6E61D0B050900AEFC1B /* main.m */; };
+		04ABF6EA1D0B050900AEFC1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF6E91D0B050900AEFC1B /* AppDelegate.m */; };
+		04ABF6F21D0B050900AEFC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ABF6F11D0B050900AEFC1B /* Assets.xcassets */; };
+		04ABF6F51D0B050900AEFC1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ABF6F31D0B050900AEFC1B /* LaunchScreen.storyboard */; };
+		04ABF7001D0B050A00AEFC1B /* Shopgun_LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF6FF1D0B050A00AEFC1B /* Shopgun_LoginTests.m */; };
+		04ABF70B1D0B050A00AEFC1B /* Shopgun_LoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF70A1D0B050A00AEFC1B /* Shopgun_LoginUITests.m */; };
+		04ABF71A1D0B07AF00AEFC1B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF7191D0B07AF00AEFC1B /* MainViewController.m */; };
+		04ABF71C1D0B091400AEFC1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABF71B1D0B091400AEFC1B /* AVFoundation.framework */; };
+		04ABF71E1D0B096200AEFC1B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABF71D1D0B096200AEFC1B /* QuartzCore.framework */; };
+		04ABF7211D0B0A9E00AEFC1B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF7201D0B0A9E00AEFC1B /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04ABF6FC1D0B050A00AEFC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ABF6DA1D0B050900AEFC1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ABF6E11D0B050900AEFC1B;
+			remoteInfo = "Shopgun Login";
+		};
+		04ABF7071D0B050A00AEFC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ABF6DA1D0B050900AEFC1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ABF6E11D0B050900AEFC1B;
+			remoteInfo = "Shopgun Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04498BA51D0B5E0A008E46CB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04ABF6E21D0B050900AEFC1B /* Shopgun Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopgun Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ABF6E61D0B050900AEFC1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04ABF6E81D0B050900AEFC1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04ABF6E91D0B050900AEFC1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04ABF6F11D0B050900AEFC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04ABF6F41D0B050900AEFC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04ABF6F61D0B050900AEFC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ABF6FB1D0B050A00AEFC1B /* Shopgun LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopgun LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ABF6FF1D0B050A00AEFC1B /* Shopgun_LoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopgun_LoginTests.m; sourceTree = "<group>"; };
+		04ABF7011D0B050A00AEFC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ABF7061D0B050A00AEFC1B /* Shopgun LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopgun LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ABF70A1D0B050A00AEFC1B /* Shopgun_LoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopgun_LoginUITests.m; sourceTree = "<group>"; };
+		04ABF70C1D0B050A00AEFC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ABF7181D0B07AF00AEFC1B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04ABF7191D0B07AF00AEFC1B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04ABF71B1D0B091400AEFC1B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04ABF71D1D0B096200AEFC1B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04ABF71F1D0B0A9E00AEFC1B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		04ABF7201D0B0A9E00AEFC1B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		04ABF7221D0B3BBC00AEFC1B /* Contants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ABF6DF1D0B050900AEFC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABF71E1D0B096200AEFC1B /* QuartzCore.framework in Frameworks */,
+				04ABF71C1D0B091400AEFC1B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABF6F81D0B050A00AEFC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABF7031D0B050A00AEFC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ABF6D91D0B050900AEFC1B = {
+			isa = PBXGroup;
+			children = (
+				04ABF71D1D0B096200AEFC1B /* QuartzCore.framework */,
+				04ABF71B1D0B091400AEFC1B /* AVFoundation.framework */,
+				04ABF6E41D0B050900AEFC1B /* Shopgun Login */,
+				04ABF6FE1D0B050A00AEFC1B /* Shopgun LoginTests */,
+				04ABF7091D0B050A00AEFC1B /* Shopgun LoginUITests */,
+				04ABF6E31D0B050900AEFC1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ABF6E31D0B050900AEFC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ABF6E21D0B050900AEFC1B /* Shopgun Login.app */,
+				04ABF6FB1D0B050A00AEFC1B /* Shopgun LoginTests.xctest */,
+				04ABF7061D0B050A00AEFC1B /* Shopgun LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ABF6E41D0B050900AEFC1B /* Shopgun Login */ = {
+			isa = PBXGroup;
+			children = (
+				04ABF6E81D0B050900AEFC1B /* AppDelegate.h */,
+				04ABF6E91D0B050900AEFC1B /* AppDelegate.m */,
+				04ABF7181D0B07AF00AEFC1B /* MainViewController.h */,
+				04ABF7191D0B07AF00AEFC1B /* MainViewController.m */,
+				04ABF71F1D0B0A9E00AEFC1B /* LoginViewController.h */,
+				04ABF7201D0B0A9E00AEFC1B /* LoginViewController.m */,
+				04ABF6F11D0B050900AEFC1B /* Assets.xcassets */,
+				04498BA51D0B5E0A008E46CB /* Main.storyboard */,
+				04ABF6F31D0B050900AEFC1B /* LaunchScreen.storyboard */,
+				04ABF6F61D0B050900AEFC1B /* Info.plist */,
+				04ABF6E51D0B050900AEFC1B /* Supporting Files */,
+			);
+			path = "Shopgun Login";
+			sourceTree = "<group>";
+		};
+		04ABF6E51D0B050900AEFC1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04ABF6E61D0B050900AEFC1B /* main.m */,
+				04ABF7221D0B3BBC00AEFC1B /* Contants.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04ABF6FE1D0B050A00AEFC1B /* Shopgun LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				04ABF6FF1D0B050A00AEFC1B /* Shopgun_LoginTests.m */,
+				04ABF7011D0B050A00AEFC1B /* Info.plist */,
+			);
+			path = "Shopgun LoginTests";
+			sourceTree = "<group>";
+		};
+		04ABF7091D0B050A00AEFC1B /* Shopgun LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04ABF70A1D0B050A00AEFC1B /* Shopgun_LoginUITests.m */,
+				04ABF70C1D0B050A00AEFC1B /* Info.plist */,
+			);
+			path = "Shopgun LoginUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04ABF6E11D0B050900AEFC1B /* Shopgun Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ABF70F1D0B050A00AEFC1B /* Build configuration list for PBXNativeTarget "Shopgun Login" */;
+			buildPhases = (
+				04ABF6DE1D0B050900AEFC1B /* Sources */,
+				04ABF6DF1D0B050900AEFC1B /* Frameworks */,
+				04ABF6E01D0B050900AEFC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shopgun Login";
+			productName = "Shopgun Login";
+			productReference = 04ABF6E21D0B050900AEFC1B /* Shopgun Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04ABF6FA1D0B050A00AEFC1B /* Shopgun LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ABF7121D0B050A00AEFC1B /* Build configuration list for PBXNativeTarget "Shopgun LoginTests" */;
+			buildPhases = (
+				04ABF6F71D0B050A00AEFC1B /* Sources */,
+				04ABF6F81D0B050A00AEFC1B /* Frameworks */,
+				04ABF6F91D0B050A00AEFC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ABF6FD1D0B050A00AEFC1B /* PBXTargetDependency */,
+			);
+			name = "Shopgun LoginTests";
+			productName = "Shopgun LoginTests";
+			productReference = 04ABF6FB1D0B050A00AEFC1B /* Shopgun LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04ABF7051D0B050A00AEFC1B /* Shopgun LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ABF7151D0B050A00AEFC1B /* Build configuration list for PBXNativeTarget "Shopgun LoginUITests" */;
+			buildPhases = (
+				04ABF7021D0B050A00AEFC1B /* Sources */,
+				04ABF7031D0B050A00AEFC1B /* Frameworks */,
+				04ABF7041D0B050A00AEFC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ABF7081D0B050A00AEFC1B /* PBXTargetDependency */,
+			);
+			name = "Shopgun LoginUITests";
+			productName = "Shopgun LoginUITests";
+			productReference = 04ABF7061D0B050A00AEFC1B /* Shopgun LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ABF6DA1D0B050900AEFC1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Humma;
+				TargetAttributes = {
+					04ABF6E11D0B050900AEFC1B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = W5KGX9VHHG;
+					};
+					04ABF6FA1D0B050A00AEFC1B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 04ABF6E11D0B050900AEFC1B;
+					};
+					04ABF7051D0B050A00AEFC1B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 04ABF6E11D0B050900AEFC1B;
+					};
+				};
+			};
+			buildConfigurationList = 04ABF6DD1D0B050900AEFC1B /* Build configuration list for PBXProject "Shopgun Login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ABF6D91D0B050900AEFC1B;
+			productRefGroup = 04ABF6E31D0B050900AEFC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ABF6E11D0B050900AEFC1B /* Shopgun Login */,
+				04ABF6FA1D0B050A00AEFC1B /* Shopgun LoginTests */,
+				04ABF7051D0B050A00AEFC1B /* Shopgun LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ABF6E01D0B050900AEFC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04498BA61D0B5E0A008E46CB /* Main.storyboard in Resources */,
+				04ABF6F51D0B050900AEFC1B /* LaunchScreen.storyboard in Resources */,
+				04ABF6F21D0B050900AEFC1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABF6F91D0B050A00AEFC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABF7041D0B050A00AEFC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ABF6DE1D0B050900AEFC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABF7211D0B0A9E00AEFC1B /* LoginViewController.m in Sources */,
+				04ABF6EA1D0B050900AEFC1B /* AppDelegate.m in Sources */,
+				04ABF71A1D0B07AF00AEFC1B /* MainViewController.m in Sources */,
+				04ABF6E71D0B050900AEFC1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABF6F71D0B050A00AEFC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABF7001D0B050A00AEFC1B /* Shopgun_LoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABF7021D0B050A00AEFC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABF70B1D0B050A00AEFC1B /* Shopgun_LoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04ABF6FD1D0B050A00AEFC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ABF6E11D0B050900AEFC1B /* Shopgun Login */;
+			targetProxy = 04ABF6FC1D0B050A00AEFC1B /* PBXContainerItemProxy */;
+		};
+		04ABF7081D0B050A00AEFC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ABF6E11D0B050900AEFC1B /* Shopgun Login */;
+			targetProxy = 04ABF7071D0B050A00AEFC1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04ABF6F31D0B050900AEFC1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ABF6F41D0B050900AEFC1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04ABF70D1D0B050A00AEFC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04ABF70E1D0B050A00AEFC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04ABF7101D0B050A00AEFC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Shopgun Login/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shopgun-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04ABF7111D0B050A00AEFC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Shopgun Login/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shopgun-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04ABF7131D0B050A00AEFC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shopgun LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shopgun-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopgun Login.app/Shopgun Login";
+			};
+			name = Debug;
+		};
+		04ABF7141D0B050A00AEFC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shopgun LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shopgun-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopgun Login.app/Shopgun Login";
+			};
+			name = Release;
+		};
+		04ABF7161D0B050A00AEFC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shopgun LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shopgun-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shopgun Login";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04ABF7171D0B050A00AEFC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shopgun LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shopgun-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shopgun Login";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ABF6DD1D0B050900AEFC1B /* Build configuration list for PBXProject "Shopgun Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABF70D1D0B050A00AEFC1B /* Debug */,
+				04ABF70E1D0B050A00AEFC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABF70F1D0B050A00AEFC1B /* Build configuration list for PBXNativeTarget "Shopgun Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABF7101D0B050A00AEFC1B /* Debug */,
+				04ABF7111D0B050A00AEFC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABF7121D0B050A00AEFC1B /* Build configuration list for PBXNativeTarget "Shopgun LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABF7131D0B050A00AEFC1B /* Debug */,
+				04ABF7141D0B050A00AEFC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABF7151D0B050A00AEFC1B /* Build configuration list for PBXNativeTarget "Shopgun LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABF7161D0B050A00AEFC1B /* Debug */,
+				04ABF7171D0B050A00AEFC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04ABF6DA1D0B050900AEFC1B /* Project object */;
+}
