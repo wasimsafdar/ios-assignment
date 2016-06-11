@@ -50,9 +50,23 @@
 #pragma mark - Login
 -(BOOL)isLogin
 {
-    if (_userNameTextField.text <= 0 || [_userNameTextField.text rangeOfString:@"@"].location== NSNotFound || _passwordTextField.text.length <= 6)
+    if ([_userNameTextField.text rangeOfString:@"@"].location== NSNotFound)
     {
-        incorrectCredentials = [UIAlertController alertControllerWithTitle:@"Incorrect Login Credentials" message:@"Please enter correct username and password" preferredStyle:UIAlertControllerStyleAlert];
+        incorrectCredentials = [UIAlertController alertControllerWithTitle:@"Incorrect Login Credentials" message:@"Email must contain an '@' with characters on either side" preferredStyle:UIAlertControllerStyleAlert];
+        
+        [incorrectCredentials addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+            
+            [incorrectCredentials dismissViewControllerAnimated:YES completion:nil];
+        }]];
+        
+        [self presentViewController:incorrectCredentials animated:YES completion:nil];
+        
+        return NO;
+    }
+    
+    if (_passwordTextField.text.length <= 6)
+    {
+        incorrectCredentials = [UIAlertController alertControllerWithTitle:@"Incorrect Login Credentials" message:@"password must be ≥6 characters" preferredStyle:UIAlertControllerStyleAlert];
         
         [incorrectCredentials addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
             
@@ -67,7 +81,7 @@
     return YES;
 }
 
-#pragma mark - Server
+#pragma mark - ServerToken
 -(BOOL)authenticate
 {
     NSString *saveSubstring;
@@ -181,6 +195,16 @@
     
     _loginScreenBtn.titleLabel.font = [UIFont fontWithName:@"Ariel" size:size];
     _loginScreenBtn.layer.frame = CGRectMake(mainScreen_xCenter-(loginBtnFieldWidth/2),_passwordTextField.frame.origin.y + _passwordTextField.frame.size.height + (STANDARD_GAP*5) , loginBtnFieldWidth, _loginScreenBtn.frame.size.height);
+    
+    //Adjust Forgot password .
+    CGFloat forgotPassWidthRatio = iosWidth/_forgotPassword.frame.size.width;
+    CGFloat forgotPassHeightRatio = iosHeight/_forgotPassword.frame.size.height;
+    
+    CGFloat forgotPassWidth = screenwidth * (1/forgotPassWidthRatio);
+    CGFloat forgotPassHeight = screenHeight * (1/forgotPassHeightRatio);
+    
+    _forgotPassword.layer.frame = CGRectMake(mainScreen_xCenter-(forgotPassWidth/2),_loginScreenBtn.frame.origin.y + _loginScreenBtn.frame.size.height + (STANDARD_GAP*3) , forgotPassWidth, forgotPassHeight);
+
     
 }
 
@@ -317,6 +341,33 @@
         
     }
 
+}
+- (IBAction)forgotPassword:(id)sender
+{
+    //Clicking on any "StokerCloud" history cell opens alert controller.
+    UIAlertController *forgotalert = [UIAlertController alertControllerWithTitle:@"Shopgun"
+                                                      message:@"Select any option."
+                                               preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    UIAlertAction *firstAction = [UIAlertAction actionWithTitle:@"Send through SMS"
+                                                          style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+                                                              
+                                                          }];
+    
+    UIAlertAction *secondAction = [UIAlertAction actionWithTitle:@"Send through Email"
+                                                           style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+                                                           }];
+    
+    UIAlertAction *thirdAction = [UIAlertAction actionWithTitle:@"Cancel"
+                                                          style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+                                                              [forgotalert dismissViewControllerAnimated:YES completion:nil];
+                                                          }];
+    [forgotalert addAction:firstAction];
+    [forgotalert addAction:secondAction];
+    [forgotalert addAction:thirdAction];
+    
+    [self presentViewController:forgotalert animated:YES completion:nil];
+    
 }
 
 -(void)dismissKeyboardonTap:(UITapGestureRecognizer *)sender

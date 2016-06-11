@@ -17,6 +17,8 @@
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (strong, nonatomic) IBOutlet UIButton *loginScreenBtn;
 @property (strong,nonatomic) NSString *btnTitle;
+@property (strong, nonatomic) IBOutlet UIButton *forgotPassword;
+
 
 -(BOOL)isLogin;
 

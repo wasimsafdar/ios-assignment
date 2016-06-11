@@ -21,7 +21,7 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     BOOL loggedIn = [defaults boolForKey:@"loginkey"];
     
-    //Check if view controller is already runned
+    //Check if view controller is already runned and user is already loggedin
     if (loggedIn)
     {
         //Assign title label
